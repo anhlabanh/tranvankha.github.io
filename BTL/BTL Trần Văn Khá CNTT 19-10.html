@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cửa hàng Giày Thể Thao ProSport</title>
+
+    <!-- CSS viết trực tiếp trong HTML -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f6ff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav a {
+            color: #f1c40f;
+            text-decoration: none;
+            margin: 0 10px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        .banner {
+            background-image: url('https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .banner h2 {
+            font-size: 36px;
+            background-color: rgba(0,0,0,0.6);
+            display: inline-block;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+
+        .banner p {
+            background-color: rgba(0,0,0,0.5);
+            display: inline-block;
+            padding: 8px 15px;
+            border-radius: 8px;
+        }
+
+        section {
+            padding: 30px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #222;
+            border-bottom: 3px solid #f1c40f;
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+
+        table {
+            margin: 0 auto;
+            border-collapse: collapse;
+            width: 80%;
+            background-color: #fff;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 15px;
+        }
+
+        th {
+            background-color: #222;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        tr:hover {
+            background-color: #e0f7fa;
+        }
+
+        button {
+            background-color: #222;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #f1c40f;
+            color: #222;
+        }
+
+        footer {
+            background-color: #222;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1>👟 CỬA HÀNG GIÀY THỂ THAO BẢNH TRẦN </h1>
+        <nav>
+            <a href="#">Trang chủ</a> |
+            <a href="#">Sản phẩm</a> |
+            <a href="#">Khuyến mãi</a> |
+            <a href="#">Liên hệ</a>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+    <div class="banner">
+        <h2>Đẳng cấp - Phong cách - Thoải mái</h2>
+        <br><br>
+        <p>Khám phá những mẫu giày thể thao hot nhất 2025!</p>
+    </div>
+
+    <!-- GIỚI THIỆU -->
+    <section>
+        <h2>Về chúng tôi</h2>
+        <p>ProSport là thương hiệu giày thể thao hàng đầu tại Việt Nam, mang đến những sản phẩm chất lượng cao, phong cách hiện đại và giá cả hợp lý.</p>
+    </section>
+
+    <!-- SẢN PHẨM -->
+    <section>
+        <h2>Sản phẩm nổi bật</h2>
+        <br>
+        <table>
+            <tr>
+                <th>Tên sản phẩm</th>
+                <th>Giá</th>
+                <th>Thao tác</th>
+            </tr>
+
+            <tr>
+                <td>Giày Nike Air Zoom</td>
+                <td>2.350.000đ</td>
+                <td><button>Thêm vào giỏ</button></td>
+            </tr>
+
+            <tr>
+                <td>Adidas UltraBoost 21</td>
+                <td>3.150.000đ</td>
+                <td><button>Thêm vào giỏ</button></td>
+            </tr>
+
+            <tr>
+                <td>Puma Running Sport</td>
+                <td>1.950.000đ</td>
+                <td><button>Thêm vào giỏ</button></td>
+            </tr>
+
+            <tr>
+                <td>Converse Classic</td>
+                <td>1.250.000đ</td>
+                <td><button>Thêm vào giỏ</button></td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- LIÊN HỆ -->
+    <section>
+        <h2>Liên hệ với chúng tôi</h2>
+        <p>🏬 Địa chỉ: Trường Đại Học Đại Nam</p>
+        <p>📞 Điện thoại: 0386320855</p>
+        <p>Liên Hệ: Sinh Viên: Trần Văn Khá </a></p>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>© 2025 Cửa hàng Giày Thể Thao Bảnh Trần. Mọi quyền được bảo lưu.</p>
+    </footer>
+
+</body>
+</html>
